@@ -11,8 +11,8 @@
 #               a     - reversion rate
 #               b     - long term level
 #               sigma - volatility
-#				        delta - deterministic function of time
-#				        r[1]  - initial short-rate value
+#               delta - deterministic function of time
+#               r[1]  - initial short-rate value
 # ------------------------------------------------------------------------------
 # Output:       Plots of the Instantaneous Short Rate 
 #               simulated by different Short Rate Models 
