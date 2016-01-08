@@ -36,9 +36,7 @@ SFEsimCIR=function(a,b,sigma){         # Cox-Ingersoll-Ross Short Rate Model
 
 
 delta=function(t){                     # Deterministic function of Time
-# delta = 0.0161
   delta = 0.0000644 * t
-# delta = cos(t)
   return(delta)
 }
 
@@ -67,17 +65,9 @@ SFEsimHoLee=function(sigma){           # Ho-Lee Short Rate Model
 
 
  SFEsimVasicek(a = 0.161, b = 0.014, sigma = 0.009)
-#SFEsimVasicek(a = 0.161, b = 0.014, sigma = 0.090)
-#SFEsimVasicek(a = 0.861, b = 0.014, sigma = 0.009)
-#SFEsimVasicek(a = 0.861, b = 0.080, sigma = 0.009)
 
  SFEsimCIR(a = 0.221, b = 0.02, sigma = 0.055)
-#SFEsimCIR(a = 0.221, b = 0.02, sigma = 0.55)
- 
-                                       # HW-Model: long term trend: delta(t)/a 
-                                       
+
  SFEsimHullWhite(a = 0.161, sigma = 0.009)
  
-                                       # HL-Model: long term trend: delta(t)+r0
-                                       
  SFEsimHoLee(sigma = 0.009)
