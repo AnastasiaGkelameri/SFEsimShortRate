@@ -3,7 +3,7 @@ Name of Quantlet: SFEsimShortRate
 
 Published in:     Statistics of Financial Markets I
 
-Description:      Simulates and plots different One Factor Short Rate Models.
+Description:      Simulates and plots various One-Factor Short-Rate Models that describe the process of the instantaneous short term interest rate.
 
 Used Models:      Vasicek, Cox-Ingersoll-Ross, Hull-White, Ho-Lee
 
@@ -22,7 +22,7 @@ Input:
 - b     : long term level
 - sigma : volatility
 - delta : deterministic function of time
-- r[1]  : initial short-rate value‘
+- r[1]  : initial short-rate value
 
 Output:           Plots of the Instantaneous Short Rate simulated by different Short Rate Models
 
